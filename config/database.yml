@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: TrashEmber_development
+  database: trashmessengerbags_development
   pool: 5
-  username: TrashEmber
+  username: rails_dev
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a

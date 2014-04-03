@@ -1,0 +1,22 @@
+div.nav-dropdown
+	|Catalogue
+	ul.nav-dropdown-menu
+		li Bags
+		ul
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Messenger Bags
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Courier Flap Packs
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Rolltop Courier Packs
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bike Travel Boxes
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Hip Packs
+		li Apparel
+		ul
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Hats
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Gloves
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Facemasks
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Wallets
+		li Utility
+		ul
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Drink Coozies
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Belt Accessories
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bike Accessories
+			link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bag Accessories

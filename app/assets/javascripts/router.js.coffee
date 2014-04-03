@@ -5,6 +5,11 @@ App.Router.map ->
   # they are included here in the App.Router.map as examples
   @route 'application', path: ''
   @route 'index', path: '/'
+  @route 'catalogue'
+  @route 'customShop', path: '/custom'
+  @route 'gallery'
+  @route 'blog'
+  @route 'about'
 
   # the following line would generate a path to the 'app/assets/javascripts/templates/users.emblem' template
   # you would access this with localhost:3000/#/users as localhost:3000/users would generate a http request to the rails backend

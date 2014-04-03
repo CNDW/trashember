@@ -1,0 +1,1 @@
+App.GalleryController = Ember.Controller.extend()

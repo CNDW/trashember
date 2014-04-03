@@ -13,17 +13,18 @@
 //= require jquery
 //= require jquery_ujs
 //= require handlebars
+//= require pongstagr.am
 //= require ember
 //= require ember-data
 //= require bootstrap
 //= require_self
 //= require app
 
-# The following line is what declares your ember application and any general app settings
-# LOG_TRANSITIONS has been set to true to aid with development
-# It is also advisable to install the ember inspecor browser plugin available for both firefox and chrome
-# Chrome - https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en
-# Firefox - https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/
+// The following line is what declares your ember application and any general app settings
+// LOG_TRANSITIONS has been set to true to aid with development
+// It is also advisable to install the ember inspecor browser plugin available for both firefox and chrome
+// Chrome - https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en
+// Firefox - https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/
 
 App = Ember.Application.create({
   LOG_TRANSITIONS: true

@@ -1,7 +1,48 @@
-div style="width: 600px; border: 6px solid #eee; margin: 0 auto; padding: 20px; text-align: center; font-family: sans-serif;"
-  img src="http://emberjs.com/images/about/ember-productivity-sm.png" style="display: block; margin: 0 auto;"
-  h1 Welcome to Ember.js!
-  p
-    | You're running an Ember.js app on top of Ruby on Rails. To get started, replace this content
-      (inside <code>app/assets/javascripts/templates/application.emblem</code>) with your application's
-      HTML.
+nav.navbar-main role="navigation"
+	img#nav-logo src="assets/trashlogo.png" alt="loading..." width='50'
+
+	div.container-fluid#wrap
+		div.navbar-header
+			button.navbar-toggle type="button" data-toggle="collapse" data-target="#main-navbar-collapse"
+				span.sr-only Toggle Navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			link-to 'index' tagName='a' classNames='navbar-brand' id='nav-logo-text' |Trash<br>Bags
+			link-to 'index' tagName='a' classNames='navbar-toggle nav-link-main' id='cart-button'
+				span.glyphicon.glyphicon-shopping-cart
+		div.collapse.navbar-collapse#main-navbar-collapse
+			ul.nav-main
+				li.catalogue-menu
+					div.nav-dropdown
+						|Catalogue
+						ul.nav-dropdown-menu
+							li Bags
+							ul
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Messenger Bags
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Courier Flap Packs
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Rolltop Courier Packs
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bike Travel Boxes
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Hip Packs
+							li Apparel
+							ul
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Hats
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Gloves
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Facemasks
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Wallets
+							li Utility
+							ul
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Drink Coozies
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Belt Accessories
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bike Accessories
+								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bag Accessories
+				link-to 'customShop' tagName='li' classNames='nav-link-main' |Custom Shop
+				link-to 'gallery' tagName='li' classNames='nav-link-main' |Gallery
+				link-to 'blog' tagName='li' classNames='nav-link-main' |Blog
+				link-to 'about' tagName='li' classNames='nav-link-main' |ABOUT
+
+			link-to 'index' tagName='a' classNames='hidden-xs nav-link-main' id='cart-button'
+				span.glyphicon.glyphicon-shopping-cart
+
+main
+	=outlet

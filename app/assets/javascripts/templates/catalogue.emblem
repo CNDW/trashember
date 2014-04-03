@@ -1,0 +1,57 @@
+div.fluid-row
+	div.col-main-catalogue
+		div.row.clearfix
+			div.col-item-carousel.carousel.slide data-ride="carousel" id="carousel-catalogue-item"
+				div.carousel-inner
+					div.carousel-img.item.active
+						img src="assets/bage1.jpg" alt="loading"
+					div.carousel-img.item
+						img src="assets/bage2.jpg" alt="loading"
+					div.carousel-img.item
+						img src="assets/bage3.jpg" alt="loading"
+
+				ol.catalogue-indicators.carousel-indicators
+					li.active data-target="#carousel-catalogue-item" data-slide-to="0"
+						img src="assets/bage1.jpg" alt="loading" width="100" height="100"
+					li data-target="#carousel-catalogue-item" data-slide-to="1"
+						img src="assets/bage2.jpg" alt="loading" width="100" height="100"
+					li data-target="#carousel-catalogue-item" data-slide-to="2"
+						img src="assets/bage3.jpg" alt="loading" width="100" height="100"
+
+				
+
+			div.col-item-details
+				div.panel.panel-default
+					div.panel-heading: h5 Our Bags are available in different sizes to best fit your carrying capacity needs
+					ul.nav-models
+						li.nav-model.active Trash Can
+						li.nav-model Landfill
+						li.nav-model Dumpster
+						
+				div.panel-group
+					div.panel.panel-default
+						div.panel-heading
+							h5 General Bag info
+							
+						div.panel-body
+							| The Trash messenger bag. A classic in form and function. Constructed into a design that meet the standards of any cyclist. They're comfortable, loaded with great features and fully waterproof. Three sizes are available for file-box toting madness or more reasonable loads to school or work. Handmade in Minneapolis using only the best materials. 
+
+						div.panel-heading
+							h5 More General Bag info
+
+						div.panel-body
+							| Phasellus dolor ligula, dignissim at placerat sed, egestas eget ante. Donec faucibus lectus a lacus commodo, id congue lacus fermentum. Aliquam id fringilla ante, et fermentum ligula. Fusce dolor risus, volutpat at euismod id, ultricies et nisl. Vestibulum mattis commodo mauris, vel porta mi commodo vitae. Morbi pretium facilisis erat. Ut placerat enim at nisl posuere, non pretium augue imperdiet. Duis molestie ultrices ante at aliquet. Fusce vitae arcu tortor. Aenean molestie justo vitae tellus cursus aliquam. Ut sed condimentum erat, quis commodo nunc.
+
+div.fluid-row
+	div.col-model-details
+		div.panel
+			div.panel-heading: h5 Trash Can Details
+			div.panel-body |Phasellus dolor ligula, dignissim at placerat sed, egestas eget ante. Donec faucibus lectus a lacus commodo, id congue lacus fermentum. Aliquam id fringilla ante, et fermentum ligula. Fusce dolor risus, volutpat at euismod id, ultricies et nisl. Vestibulum mattis commodo mauris, vel porta mi commodo vitae. Morbi pretium facilisis erat. Ut placerat enim at nisl posuere, non pretium augue imperdiet. Duis molestie ultrices ante at aliquet. Fusce vitae arcu tortor. Aenean molestie justo vitae tellus cursus aliquam. Ut sed condimentum erat, quis commodo nunc. Etiam posuere elit ac orci ornare posuere. Proin semper pretium dolor, nec imperdiet urna vulputate eu. Fusce ut fringilla magna. Quisque at elementum odio. Phasellus lorem nulla, gravida sodales magna pellentesque, imperdiet laoreet lorem. Maecenas tincidunt placerat rutrum. Vestibulum aliquam tellus ut lectus condimentum, ac imperdiet justo tempor. Proin at mi sit amet nibh faucibus molestie a vel sem. Proin pellentesque, velit at bibendum semper, justo mi tincidunt enim, et.
+	div.col-model-details
+		div.panel
+			div.panel-heading: h5 Trash Can Details
+			div.panel-body |Phasellus dolor ligula, dignissim at placerat sed, egestas eget ante. Donec faucibus lectus a lacus commodo, id congue lacus fermentum. Aliquam id fringilla ante, et fermentum ligula. Fusce dolor risus, volutpat at euismod id, ultricies et nisl. Vestibulum mattis commodo mauris, vel porta mi commodo vitae. Morbi pretium facilisis erat. Ut placerat enim at nisl posuere, non pretium augue imperdiet. Duis molestie ultrices ante at aliquet. Fusce vitae arcu tortor. Aenean molestie justo vitae tellus cursus aliquam. Ut sed condimentum erat, quis commodo nunc. Etiam posuere elit ac orci ornare posuere. Proin semper pretium dolor, nec imperdiet urna vulputate eu. Fusce ut fringilla magna. Quisque at elementum odio. Phasellus lorem nulla, gravida sodales magna pellentesque, imperdiet laoreet lorem. Maecenas tincidunt placerat rutrum. Vestibulum aliquam tellus ut lectus condimentum, ac imperdiet justo tempor. Proin at mi sit amet nibh faucibus molestie a vel sem. Proin pellentesque, velit at bibendum semper, justo mi tincidunt enim, et ullamcorper metus quam sit amet nibh. Nullam dignissim, libero vitae molestie ornare, risus nisl eleifend nulla, eget vulputate arcu leo et est. 
+	div.col-model-details
+		div.panel
+			div.panel-heading: h5 Trash Can Details
+			div.panel-body |Phasellus dolor ligula, dignissim at placerat sed, egestas eget ante. Donec faucibus lectus a lacus commodo, id congue lacus fermentum. Aliquam id fringilla ante, et fermentum ligula. Fusce dolor risus, volutpat at euismod id, ultricies et nisl. Vestibulum mattis commodo mauris, vel porta mi commodo vitae. Morbi pretium facilisis erat. Ut placerat enim at nisl posuere, non pretium augue imperdiet. Duis molestie ultrices ante at aliquet. Fusce vitae arcu tortor. Aenean molestie justo vitae tellus cursus aliquam. Ut sed condimentum erat, quis commodo nunc. Etiam posuere elit ac orci ornare posuere. Proin semper pretium dolor, nec imperdiet urna vulputate eu. Fusce ut fringilla magna. Quisque at elementum odio. Phasellus lorem nulla, gravida sodales magna pellentesque, imperdiet laoreet lorem. Maecenas tincidunt placerat rutrum.

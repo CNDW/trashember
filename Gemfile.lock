@@ -29,6 +29,8 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.2)
     atomic (1.1.15)
+    autoprefixer-rails (1.1.20140319)
+      execjs
     barber (0.4.2)
       ember-source
       execjs
@@ -249,6 +251,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
+  autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.1.0)

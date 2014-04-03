@@ -1,0 +1,59 @@
+div.row.clearfix
+	div.col-md-12.column
+		div.index-carousel.carousel.slide#carousel-home-page data-ride="carousel"
+
+			ol.carousel-indicators
+				li.active data-target="#carousel-home-page" data-slide-to="0"
+				li data-target="#carousel-home-page" data-slide-to="1"
+				li data-target="#carousel-home-page" data-slide-to="2"
+				li data-target="#carousel-home-page" data-slide-to="3"
+
+			div.carousel-inner
+				div.item.active
+					img alt="loading 0" src="assets/home-slide-0.jpg"
+				div.item
+					img alt="loading 1" src="assets/home-slide-1.jpg"
+				div.item
+					img alt="loading 2" src="assets/home-slide-2.jpg"
+				div.item
+					img alt="loading 3" src="assets/home-slide-3.jpg"
+
+	div.col-sidebar-catalogue
+		div.panel-group.store-sidebar
+			div.panel.panel-default.btn-toolbar role="toolbar"
+
+				div.panel-heading
+					|Bags
+				div.btn-group-store-sidebar
+					button.btn-store-sidebar.btn.active type="button"
+						|Messenger Bags
+					button.btn-store-sidebar.btn type="button"
+						|Courier Flap Packs
+					button.btn-store-sidebar.btn type="button"
+						|Rolltop Courier Packs
+					button.btn-store-sidebar.btn type="button"
+						|Bike Travel Boxes
+					button.btn-store-sidebar.btn type="button"
+						|Hip Packs
+				div.panel-heading
+					|Apparel
+				div.btn-group-store-sidebar
+					button.btn-store-sidebar.btn type="button"
+						|Hats
+					button.btn-store-sidebar.btn type="button"
+						|Gloves
+					button.btn-store-sidebar.btn type="button"
+						|Facemasks
+					button.btn-store-sidebar.btn type="button"
+						|Wallets
+				div.panel-heading
+					|Utility
+				div.btn-group-store-sidebar
+					button.btn-store-sidebar.btn type="button"
+						|Drink Coozies
+					button.btn-store-sidebar.btn type="button"
+						|Belt Accessories
+					button.btn-store-sidebar.btn type="button"
+						|Bike Accessories
+					button.btn-store-sidebar.btn type="button"
+						|Bag Accessories
