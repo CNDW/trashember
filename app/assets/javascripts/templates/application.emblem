@@ -36,7 +36,7 @@ nav.navbar-main role="navigation"
 								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Belt Accessories
 								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bike Accessories
 								link-to 'catalogue' tagName='li' classNames='nav-dropdown-category nav-link-main' |Bag Accessories
-				link-to 'customShop' tagName='li' classNames='nav-link-main' |Custom Shop
+				link-to 'custom_shop' tagName='li' classNames='nav-link-main' |Custom Shop
 				link-to 'gallery' tagName='li' classNames='nav-link-main' |Gallery
 				link-to 'blog' tagName='li' classNames='nav-link-main' |Blog
 				link-to 'about' tagName='li' classNames='nav-link-main' |ABOUT

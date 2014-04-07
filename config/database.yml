@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: TrashEmber_production
+  database: trashmessengerbags_development
   pool: 5
-  username: TrashEmber
-  password:
+  username: trashadmin
+  password: hammerbone

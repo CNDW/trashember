@@ -6,7 +6,7 @@ App.Router.map ->
   @route 'application', path: ''
   @route 'index', path: '/'
   @route 'catalogue'
-  @route 'customShop', path: '/custom'
+  @route 'custom_shop', path: '/custom'
   @route 'gallery'
   @route 'blog'
   @route 'about'

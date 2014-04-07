@@ -4,6 +4,6 @@ App.GalleryFeedComponent = Ember.Component.extend
 	fetchGallery: ->	
 		console.log('fetchGallery fire')
 		$('#gallery-feed').pongstgrm
-			accessId: '40490796'
-			accessToken: '40490796.06d87d0.fafc7279a95246bc9943ef7f6432cd73'
-			show: 'feed'
+			accessId: '52250693'
+			accessToken: '52250693.2ef6a14.9549749259f048d69726a5d419f4ad6d'
+			show: 'trashmessengerbags'
