@@ -1,0 +1,1 @@
+App.ProductTypeController = Em.Controller.extend()
