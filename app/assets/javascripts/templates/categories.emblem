@@ -1,0 +1,10 @@
+div.nav-dropdown
+	|Catalogue
+	ul.nav-dropdown-menu
+		each category in model
+			li 
+				h3.nav-dropdown-head {{category.name}}
+				ul
+					each type in category.productTypes
+						li.nav-dropdown-category.nav-link-main
+							link-to 'catalogue' classNames='catalogue-nav' |{{type.name}}

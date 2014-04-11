@@ -6,3 +6,4 @@
 # DS.RESTAdapter or another custom adapter of your choosing.
 App.store = DS.Store.extend
   adapter: 'DS.FixtureAdapter'
+App.ApplicationAdapter = DS.FixtureAdapter

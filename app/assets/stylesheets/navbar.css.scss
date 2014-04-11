@@ -85,9 +85,24 @@
     background-color: rgb(210, 210, 210);
   }
   &.nav-dropdown-category {
-    font-size: 70%;
-    line-height: 80%;
-    padding: 5px 0 5px 5px;
+    font-size: 75%;
+    line-height: 20px;
+    padding: 0;
+    border-width: 0;
+  }
+  .catalogue-nav {
+    color: inherit;
+    background-color: inherit;
+    outline: inherit;
+    text-decoration: inherit;
+    background-origin: border-box;
+    display: inline-block;
+    width: 100%;
+    margin-right: 5px;
+    &.active {
+      color: black;
+      background-color: rgb(210, 210, 210);
+    }
   }
 }
 .catalogue-menu {
@@ -102,6 +117,7 @@
   color: rgb(220, 220, 220);
 }
 .nav-dropdown {
+  position: relative;
   height: 42px;
   margin: 0 -10px 0 -10px;
   overflow: hidden;
@@ -119,10 +135,14 @@
   position: relative;
   display: block;
   background-color: rgb(160, 160, 160);
-  padding: 5px 0 5px 10px;
+  padding: 0 0 0 10px;
   font-size: 80%;
   text-align: left;
   line-height: 80%;
+}
+.nav-dropdown-head {
+  margin: 0;
+  margin-left: -5px;
 }
 #nav-logo-text {
   background-color: white;
