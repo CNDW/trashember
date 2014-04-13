@@ -68,5 +68,10 @@ App.ProductType.FIXTURES = [
 		name: "Bag Accessories"
 		category: 202
 	}
+	{
+		id: 112
+		name: "Travel Boxes"
+		category: 200
+	}
 ]
 	

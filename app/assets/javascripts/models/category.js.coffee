@@ -6,7 +6,7 @@ App.Category.FIXTURES = [
 	{
 		id: 200
 		name: "Bags"
-		productTypes: [100, 101, 102, 103]
+		productTypes: [100, 101, 102, 103, 112]
 	}
 	{
 		id: 201
