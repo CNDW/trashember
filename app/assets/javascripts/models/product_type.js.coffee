@@ -21,6 +21,7 @@ App.ProductType.FIXTURES = [
 		id: 102
 		name: "Flaptop Backpacks"
 		category: 200
+		products: [8, 9, 10, 11]
 	}
 	{
 		id: 103

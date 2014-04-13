@@ -1,0 +1,3 @@
+div.panel-heading: h5 {{name}} Details
+div.panel-body 
+	= description

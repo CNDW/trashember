@@ -1,1 +1,1 @@
-App.ProductTypeController = Em.Controller.extend()
+App.ProductTypeController = Em.ObjectController.extend()

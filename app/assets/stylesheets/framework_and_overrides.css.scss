@@ -59,50 +59,28 @@ img {
 }
 
 // Store
-.navbar-catalogue {
-  @extend .navbar;
-  @extend .navbar-inverse;
-  font-family: 'Capture it';
-}
-.col-sidebar-catalogue {
-  @extend .col-xs-4;
-  @extend .col-sm-3;
-  @extend .col-md-2;
-  font-family: 'Capture it';
-}
 .col-main-catalogue {
   @extend .col-lg-12
-}
-.btn-group-store-sidebar {
-  @extend .btn-group;
-}
-.btn-store-sidebar {
-  @extend .btn-primary;
 }
 .col-item-carousel {
   @extend .col-xs-12;
   @extend .col-sm-12;
-  @extend .col-md-7;
+  @extend .col-lg-6;
 }
 .col-item-details {
   @extend .col-xs-12;
   @extend .col-sm-12;
-  @extend .col-md-5;
+  @extend .col-md-4;
 }
-.col-item-models {
-  @extend .col-xs-12;
-  @extend .col-sm-12;
-  @extend .col-md-8;
-}
-.col-model-details {
-  @extend .col-lg-4;
+.col-model-selection {
+  @extend .col-lg-2;
 }
 
 .col-custom-display {
   @extend .col-lg-6;
   @extend .col-sm-6;
   @extend .col-xs-12;
-  @extend .jumbotron
+  @extend .jumbotron;
 }
 .col-custom-details {
   @extend .col-lg-6;
@@ -144,7 +122,9 @@ img {
   @extend .clearfix;
   margin: 0;
 }
-
+.panel-model-stats {
+  @extend .panel-body;
+}
 // apply styles to HTML elements
 // to make views framework-neutral
 main {

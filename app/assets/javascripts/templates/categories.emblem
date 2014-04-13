@@ -1,5 +1,5 @@
 div.nav-dropdown
-	|Catalogue
+	= catalogueDisplay
 	ul.nav-dropdown-menu
 		each 
 			li 

@@ -1,0 +1,42 @@
+div.col-main-catalogue
+	div.row.clearfix
+
+		div.col-model-selection
+			div.panel-group
+				div.panel.panel-default
+					div.panel-heading: h5 Available in different sizes
+					ul.nav-models
+						each product in products
+							link-to 'product' product tagName="li" classNames="nav-model" |{{product.name}}
+				outlet productStats
+
+		div.col-item-carousel.carousel.slide data-ride="carousel" id="carousel-catalogue-item"
+			div.carousel-inner
+				div.carousel-img.item.active
+					img src="assets/bage1.jpg" alt="loading"
+				div.carousel-img.item
+					img src="assets/bage2.jpg" alt="loading"
+				div.carousel-img.item
+					img src="assets/bage3.jpg" alt="loading"
+
+			ol.catalogue-indicators.carousel-indicators
+				li.active data-target="#carousel-catalogue-item" data-slide-to="0"
+					img src="assets/bage1.jpg" alt="loading" width="100" height="100"
+				li data-target="#carousel-catalogue-item" data-slide-to="1"
+					img src="assets/bage2.jpg" alt="loading" width="100" height="100"
+				li data-target="#carousel-catalogue-item" data-slide-to="2"
+					img src="assets/bage3.jpg" alt="loading" width="100" height="100"
+
+			
+
+		div.col-item-details
+					
+			div.panel-group
+				div.panel.panel-default
+					div.panel-heading
+						h5 General Bag info
+						
+					div.panel-body
+						| The Trash messenger bag. A classic in form and function. Constructed into a design that meet the standards of any cyclist. They're comfortable, loaded with great features and fully waterproof. Three sizes are available for file-box toting madness or more reasonable loads to school or work. Handmade in Minneapolis using only the best materials. 
+
+					outlet productDetails

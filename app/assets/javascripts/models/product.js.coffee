@@ -62,4 +62,36 @@ App.Product.FIXTURES = [
 		capacity: "5,600 cubic inches / 91.76 liters"
 		description: "The Pacific Garbage Vortex is a phenomenon of suspended garbage from the world's civilization converging from ocean currents in the mid Pacific to the tune of 250,000 square miles.  While that's huge (and a bummer, really) the Trash Bags Garbage Vortex is a phenomenon in itself.  The size listed is with it rolled down-- you max this bag out, you can carry anything.  And, you have a secondary shelter while you are out and about.  There really isn't another messenger backpack out there of this size: the Vortex is in a class of it's own.  Why create such a monster?  Food delivery riders need it-- take those huge tickets and make that big $.  It also comes up huge in the changing bike delivery market where boxes and large cargo are frequently on the agenda.  If you need to be able to haul anything, the Vortex is the answer."
 	}
+	{
+		id: 8
+		name: "Garbage Fire"
+		price: 265
+		measurements: '10" W x 8" D x 18" H '
+		capacity: "1,440 cubic inches / 23.59 Liters"
+		description: "The Garbage Fire is designed to have a lot of capacity in a small footprint.  It's size is intended to fit those of smaller stature that need a good commuter backpack / all purpose, around town rucksack.  It's got all the features of the larger flap backpacks, but those of you in the range of 5'0\" will be pleased to have a really useful bag that fits you well."
+	}
+	{
+		id: 9
+		name: "Garbage Burner"
+		price: 300
+		measurements: '12" W x 10" D x 21" H '
+		capacity: "2,520 cubic inches / 41.49 Liters"
+		description: "You've been searching for the all purpose backpack, haven't you?  The one that will be at home hauling school books and laptops and still has room for the gym clothes?  The one with enough space to keep your personal gear separate from the cargo compartment?  The one where you can use it for food delivery and once the shift is over, be able to haul that bag of dog food home?  The Garbage Burner is it.  Easy haulability in a size that can cater to anyone, no matter the user.  School, work, delivery, or travel.  It's got ya."
+	}
+	{
+		id: 10
+		name: "Garbage Incinerator"
+		price: 350
+		measurements: '14" W x 12" D x 22" H '
+		capacity: "3,696 cubic inches / 60.56 Liters"
+		description: "Need a bit more space?   Are you a messenger sick of file boxes carrying poorly, at an angle with corners poking in your back?  Need to be able to stack all of those food delivery orders without crushing?  Do you want ALL of the groceries, not just whatever you can fit in your bag?  Are you an independent warrior looking to go bike exclusive on that urban environment?  The Garbage Incinerator makes a great messenger work bag--- and anyone else who wants major haulability and durability-- this is for you as well.  If you haul large presentations, art projects, portfolios, etc, this will do it.  And, it'll fit in the overhead bin so take it wherever you need to.  "
+	}
+	{
+		id: 11
+		name: "Garbage Inferno"
+		price: 375
+		measurements: '16" W x 14" D x 24" H'
+		capacity: "5,376 cubic inches / 88.09 Liters"
+		description: "The Inferno is huge, we're talking ultimate messenger work backpack here.  But don't let the size scare you, when you aren't carrying two file boxes, $100+ orders of food, or 40 lbs of paycheck deliveries or whatever you may put inside of it, it'll compress down to a much smaller size.  There isn't much you can't do with it, and it's versatile enough to be your everyday bag to boot.  It's what I (Andy) use on a daily basis, and it's never let me down.  "
+	}
 ]
