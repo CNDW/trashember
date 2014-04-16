@@ -1,0 +1,1 @@
+App.FeaturesController = Em.ArrayController.extend()

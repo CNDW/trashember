@@ -36,7 +36,7 @@ App.Product.FIXTURES = [
 		price: 250
 		measurements: "10\" W x 8\" D x 16\" H"
 		capacity: "1,280 cubic inches / 20.98 liters"
-		description: "The Garbage Fire is a nice rolltop backpack option for those of smaller stature.  If you are in the neighborhood of 5'0\" to 5'5\" and want a backpack that'll work well without seeming oversized for you-- this is the ticket.  It also makes a great day pack / weekend pack for anyone who is looking for something small to grab and go.  Or, get one of these for your grade schooler and give them a school backpack that'll still be around when they graduate."
+		description: "The Garbage Disposal is a nice rolltop backpack option for those of smaller stature.  If you are in the neighborhood of 5'0\" to 5'5\" and want a backpack that'll work well without seeming oversized for you-- this is the ticket.  It also makes a great day pack / weekend pack for anyone who is looking for something small to grab and go.  Or, get one of these for your grade schooler and give them a school backpack that'll still be around when they graduate."
 	}
 	{
 		id: 5

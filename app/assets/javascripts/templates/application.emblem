@@ -1,7 +1,7 @@
 nav.navbar-main role="navigation"
 	img#nav-logo src="assets/trashlogo.png" alt="loading..." width='50'
 
-	div.container-fluid#wrap
+	div.container-fluid
 		div.navbar-header
 			button.navbar-toggle type="button" data-toggle="collapse" data-target="#main-navbar-collapse"
 				span.sr-only Toggle Navigation
@@ -13,7 +13,7 @@ nav.navbar-main role="navigation"
 				span.glyphicon.glyphicon-shopping-cart
 		div.collapse.navbar-collapse#main-navbar-collapse
 			ul.nav-main
-				view App.CategoriesView contentBinding="categories"
+				link-to 'product_types' tagName='li' classNames='nav-link-main' |Catalogue
 				link-to 'custom_shop' tagName='li' classNames='nav-link-main' |Custom Shop
 				link-to 'gallery' tagName='li' classNames='nav-link-main' |Gallery
 				link-to 'blog' tagName='li' classNames='nav-link-main' |Blog

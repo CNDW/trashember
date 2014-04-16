@@ -2,7 +2,6 @@
   padding-right: 0;
 }
 .col-item-details {
-  padding-top: 50px;
 }
 
 .col-item-carousel {
@@ -10,7 +9,6 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px;
 
   .carousel-inner {
     .carousel-img { 
@@ -52,8 +50,6 @@
   }
 }
 .col-model-selection {
-  margin-top: 50px;
-  padding-top: 15px;
   padding-bottom: 15px;
   .nav-models {
     display: block;
@@ -76,4 +72,13 @@
   p {
     font-size: 90%;
   }
+}
+.feature-list {
+  .list-group-item {
+    font-size: 80%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+.col-main-catalogue {
 }

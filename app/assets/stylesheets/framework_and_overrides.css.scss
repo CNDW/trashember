@@ -60,7 +60,13 @@ img {
 
 // Store
 .col-main-catalogue {
-  @extend .col-lg-12
+  @extend .col-lg-8;
+  @extend .col-sm-12;
+}
+.col-nav-catalogue {
+  @extend .col-lg-2;
+  @extend .col-lg-offset-1;
+  @extend .col-sm-12;
 }
 .col-item-carousel {
   @extend .col-xs-12;
@@ -86,6 +92,19 @@ img {
   @extend .col-lg-6;
   @extend .col-sm-6;
   @extend .col-xs-12;
+}
+
+.col-small {
+  @extend .col-sm-2;
+}
+.col-medium {
+  @extend .col-sm-4;
+}
+.col-large {
+  @extend .col-sm-8;
+}
+.col-full {
+  @extend .col-sm-12;
 }
 
 .parallax {
