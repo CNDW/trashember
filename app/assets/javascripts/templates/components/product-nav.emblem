@@ -1,0 +1,6 @@
+link-to 'product_type' type classNames="nav-catalogue-link" tagName='li'
+	= type.name
+ul.nav-products
+	each product in products
+		link-to 'product' product classNames="nav-catalogue-link" tagName='li' 
+			= product.name

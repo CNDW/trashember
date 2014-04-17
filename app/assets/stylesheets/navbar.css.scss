@@ -84,66 +84,8 @@
     color: black;
     background-color: rgb(210, 210, 210);
   }
-  &.nav-dropdown-category {
-    font-size: 75%;
-    line-height: 20px;
-    padding: 0;
-    border-width: 0;
-  }
-  .catalogue-nav {
-    color: inherit;
-    background-color: inherit;
-    outline: inherit;
-    text-decoration: inherit;
-    background-origin: border-box;
-    display: inline-block;
-    width: 100%;
-    margin-right: 5px;
-    &.active {
-      color: black;
-      background-color: rgb(210, 210, 210);
-    }
-  }
 }
-.catalogue-menu {
-  max-height: 42px;
-  line-height: 42px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(140, 140, 140);
-  border-top-width: 0;
-  border-bottom-width: 0;
-  padding: 0 10px 0 10px;
-  color: rgb(220, 220, 220);
-}
-.nav-dropdown {
-  position: relative;
-  height: 42px;
-  margin: 0 -10px 0 -10px;
-  overflow: hidden;
-  &:hover {
-    box-shadow: 0 5px 5px;
-    height: auto;
-    color: black;
-    background-color: rgb(160, 160, 160);
-  }
-}
-.nav-dropdown-menu {
-  border-width: 0;
-  border-top-width: 2px;
-  border-style: solid;
-  position: relative;
-  display: block;
-  background-color: rgb(160, 160, 160);
-  padding: 0 0 0 10px;
-  font-size: 80%;
-  text-align: left;
-  line-height: 80%;
-}
-.nav-dropdown-head {
-  margin: 0;
-  margin-left: -5px;
-}
+
 #nav-logo-text {
   background-color: white;
   padding: 2px 3px 0 50px;

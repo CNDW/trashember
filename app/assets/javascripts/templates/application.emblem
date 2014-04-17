@@ -23,4 +23,4 @@ nav.navbar-main role="navigation"
 				span.glyphicon.glyphicon-shopping-cart
 
 main
-	=outlet
+	outlet

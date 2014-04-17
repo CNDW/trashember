@@ -1,14 +1,12 @@
 div.fluid-row
 	div.col-nav-catalogue
-		div.nav-catalogue
-			ul.list-group
-				each 
-					li.list-group-item
-						h3.nav-dropdown-head {{name}}
-						ul
-							each type in productTypes
-								li.nav-dropdown-category.nav-link-main
-									link-to 'product_type' type classNames='catalogue-nav' |{{type.name}}
+		ul.list-group.nav-catalogue
+			each 
+				li.list-group-item
+					h2.nav-catalogue-head {{name}}
+					each type in productTypes
+						= product-nav products=type.products type=type
+		outlet productSelection
 	div.col-main-catalogue
 		outlet
 		
