@@ -1,16 +1,13 @@
 .col-sidebar-catalogue {
   padding-right: 0;
 }
-.col-item-details {
-}
 
 .col-item-carousel {
-  position: relative;
-  display: block;
   margin-right: auto;
   margin-left: auto;
-
+  padding: 0;
   .carousel-inner {
+    padding: 0 10% 5% 10%;
     .carousel-img { 
       img { 
         width: 100%;
@@ -20,7 +17,6 @@
   .catalogue-indicators {
     bottom: 0;
     left: 0;
-    margin-left: 0;
     width: 100%;
     position: relative;
     display: block;
@@ -49,25 +45,6 @@
     }
   }
 }
-.col-model-selection {
-  padding-bottom: 15px;
-  .nav-models {
-    display: block;
-    margin: 0;
-    padding: 0;
-    .nav-model {
-      color: black;
-      display: block;
-      width: 100%;
-      margin: 0;
-      padding: 5px 5px 5px 5px;
-      &:hover {
-      }
-      &:active {
-      }
-    }
-  }
-}
 .panel-model-stats {
   p {
     font-size: 90%;
@@ -86,15 +63,17 @@
 }
 .nav-catalogue {
   background-color: black;
-  text-align: left;
   li {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
     border: none;
     background-color: black;
   }
 }
 .col-main-catalogue {
   background-color: white;
-  padding: 10px 0 0 0;
+  padding: 0;
   min-height: 100%;
 }
 .nav-catalogue-head {
@@ -105,7 +84,12 @@
 .nav-products {
   font-size: 90%;
   padding-left: 10px;
-  display: none;
+  height: 0px;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  &.expanded {
+    height: auto;
+  }
 }
 .nav-catalogue-link {
   font-size: 95%;
@@ -126,5 +110,24 @@
     +.nav-products {
       display: inherit;
     }
+  }
+}
+.col-detail-thumb {
+  padding-bottom: 10px;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
+}
+.detail-caption {
+  p {
+    display: inline-block;
+    font-size: 80%;
+    height: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

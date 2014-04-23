@@ -41,45 +41,25 @@ img {
 #nav-main-xs {
   @extend .visible-xs;
 }
-.nav-side {
-  @extend .nav;
-  @extend .navbar-nav;
-  @extend .navbar-right;
-}
-.nav-models {
-  @extend .nav;
-  @extend .nav-pills;
-  @extend .nav-justified;
-  font-family: 'Capture it';
-}
-.nav-model {
-  @extend .well;
-  @extend .btn;
-  @extend .btn-primary;
-}
 
 // Store
 .col-main-catalogue {
   @extend .col-lg-8;
-  @extend .col-sm-12;
+  @extend .col-xs-12;
 }
 .col-nav-catalogue {
   @extend .col-lg-2;
   @extend .col-lg-offset-1;
-  @extend .col-sm-12;
+  @extend .col-xs-12;
 }
 .col-item-carousel {
   @extend .col-xs-12;
-  @extend .col-sm-12;
-  @extend .col-lg-6;
+  @extend .col-md-12;
 }
 .col-item-details {
   @extend .col-xs-12;
   @extend .col-sm-12;
-  @extend .col-md-4;
-}
-.col-model-selection {
-  @extend .col-lg-2;
+  @extend .col-md-8;
 }
 
 .col-custom-display {
@@ -92,6 +72,11 @@ img {
   @extend .col-lg-6;
   @extend .col-sm-6;
   @extend .col-xs-12;
+}
+.col-detail-thumb {
+  @extend .col-xs-12;
+  @extend .col-sm-6;
+  @extend .col-md-4;
 }
 
 .col-small {
@@ -115,6 +100,13 @@ img {
 }
 .slide-transition {
   @extend .col-lg-12;
+}
+.nav-catalogue-tabs {
+  @extend .nav;
+  @extend .nav-tabs;
+}
+.nav-catalogue {
+  @extend .list-group;
 }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY

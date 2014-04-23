@@ -1,3 +1,32 @@
-div.panel-heading: h5 {{name}} Details
-div.panel-body 
-	= description
+div.col-item-carousel.carousel.slide.well data-ride="carousel" id="carousel-catalogue-item"
+	div.carousel-inner
+		div.carousel-img.item.active
+			img src="assets/bage1.jpg" alt="loading"
+		div.carousel-img.item
+			img src="assets/bage2.jpg" alt="loading"
+		div.carousel-img.item
+			img src="assets/bage3.jpg" alt="loading"
+detail-thumbnail
+	img src="assets/trashlogo.jpg" alt="loading..."
+	div.detail-caption
+		h3 {{product.name}}
+		p.well {{product.description}}
+	p Click for more!
+detail-thumbnail
+	img src="assets/trashlogo.jpg" alt="loading..."
+	div.detail-caption
+		h3 {{product.name}}
+		p.well {{product.description}}
+	p Click for more!
+detail-thumbnail
+	img src="assets/trashlogo.jpg" alt="loading..."
+	div.detail-caption
+		h3 {{product.name}}
+		p.well {{product.description}}
+	p Click for more!
+detail-thumbnail
+	img src="assets/trashlogo.jpg" alt="loading..."
+	div.detail-caption
+		h3 {{product.name}}
+		p.well {{product.description}}
+	p Click for more!

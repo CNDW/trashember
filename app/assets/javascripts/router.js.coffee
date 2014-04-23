@@ -10,8 +10,7 @@ App.Router.map ->
   @route 'blog'
   @route 'about'
   @resource 'product_types', path: '/catalogue', ->
-    @resource 'product_type', path: '/:product_type_id', ->
-      @resource 'product', path: '/:product_id'
+    @resource 'product', path: '/:product_id'
 
   # the following line would generate a path to the 'app/assets/javascripts/templates/users.emblem' template
   # you would access this with localhost:3000/#/users as localhost:3000/users would generate a http request to the rails backend

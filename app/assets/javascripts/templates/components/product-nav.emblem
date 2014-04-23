@@ -1,6 +1,6 @@
-link-to 'product_type' type classNames="nav-catalogue-link" tagName='li'
-	= type.name
-ul.nav-products
+li.nav-catalogue-link{bind-attr class="isActive:active"}{action toggleMenu} 
+	=type.name
+ul.nav-products{bind-attr class="isActive:expanded"}
 	each product in products
 		link-to 'product' product classNames="nav-catalogue-link" tagName='li' 
 			= product.name

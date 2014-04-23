@@ -1,4 +1,0 @@
-li
-	h5 Each {{singularName}} comes standard with these features
-each feature in features
-	li.list-group-item = feature.name

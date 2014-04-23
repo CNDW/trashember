@@ -24,3 +24,4 @@ nav.navbar-main role="navigation"
 
 main
 	outlet
+	outlet modal
