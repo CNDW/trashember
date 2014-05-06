@@ -1,8 +1,0 @@
-div.col-item-carousel.carousel.slide.well data-ride="carousel" id="carousel-catalogue-item"
-	div.carousel-inner
-		div.carousel-img.item.active
-			img src="assets/bage1.jpg" alt="loading"
-		div.carousel-img.item
-			img src="assets/bage2.jpg" alt="loading"
-		div.carousel-img.item
-			img src="assets/bage3.jpg" alt="loading"

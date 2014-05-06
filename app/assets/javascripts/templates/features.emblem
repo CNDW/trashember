@@ -1,8 +1,8 @@
 div.modal-dialog
 	div.modal-content
 		div.modal-header
-			button.close type='button' aria-hidden='true' &times;
-			h4.modal-title {{singularName}} Standard Features
+			button.close type='button' aria-hidden='true'
+			h4.modal-title Bag Standard Features
 		div.modal-body
 			ul.list-group
 				each feature in features

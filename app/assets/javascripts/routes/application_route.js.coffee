@@ -1,14 +1,16 @@
 App.ApplicationRoute = Em.Route.extend
 	model: ->
 		@store.find('category')
-	actions: 
-		openModal: (modalName, model)->
-			@controllerFor(modalName).set('model', model)
-			@render(modalName, 
-				into: 'application'
+
+	actions:
+		openModal: ()->
+			console.log('openModal fire')
+			#@controllerFor(modalName).set('model', model)
+			@render("features", 
 				outlet: 'modal'
+				into: 'application'
 				)
 		closeModal: ->
 			@disconnectOutlet
 				outlet: 'modal'
-				parentView: 'application'
+				parentView: 'product'

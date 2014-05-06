@@ -136,6 +136,9 @@ img {
 .panel-model-stats {
   @extend .panel-body;
 }
+.modal {
+  display: block;
+}
 // apply styles to HTML elements
 // to make views framework-neutral
 main {

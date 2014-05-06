@@ -86,7 +86,8 @@
   padding-left: 10px;
   height: 0px;
   overflow: hidden;
-  transition-duration: 0.4s;
+  transition-property: height;
+  transition-duration: 4s;
   &.expanded {
     height: auto;
   }

@@ -9,7 +9,7 @@ nav.navbar-main role="navigation"
 				span.icon-bar
 				span.icon-bar
 			link-to 'index' tagName='a' classNames='navbar-brand' id='nav-logo-text' |Trash<br>Bags
-			link-to 'index' tagName='a' classNames='navbar-toggle nav-link-main' id='cart-button'
+			link-to 'index' tagName='a' classNames='navbar-toggle nav-link-main' id='cart-button2'
 				span.glyphicon.glyphicon-shopping-cart
 		div.collapse.navbar-collapse#main-navbar-collapse
 			ul.nav-main
